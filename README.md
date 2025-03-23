@@ -98,5 +98,3 @@ This project is published as a personal reusable template, but it may be useful 
 This template is developed in LabVIEW 2024, but it's also available in a version compatible with **LabVIEW 2015**. The `LV2015` folder contains the same project adapted to be opened and used in that LabVIEW version.
 
 -----
-
-Espero que esta traducción sea útil. Avísame si necesitas alguna otra cosa.
