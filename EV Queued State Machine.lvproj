@@ -18,7 +18,7 @@
 		</Item>
 		<Item Name="support" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
-			<Item Name="create_queue.vi" Type="VI" URL="../LV2015/support/create_queue.vi"/>
+			<Item Name="create queue.vi" Type="VI" URL="../support/create queue.vi"/>
 			<Item Name="dequeue state &amp; data.vi" Type="VI" URL="../support/dequeue state &amp; data.vi"/>
 			<Item Name="queue state &amp; data.vi" Type="VI" URL="../support/queue state &amp; data.vi"/>
 		</Item>
@@ -59,7 +59,6 @@
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
-			<Item Name="create queue.vi" Type="VI" URL="../support/create queue.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
