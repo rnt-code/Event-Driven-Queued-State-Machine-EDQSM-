@@ -36,8 +36,7 @@ Encola uno o varios estados, con o sin datos adjuntos.
 
 ![imagen](https://github.com/user-attachments/assets/0fd0c99c-5922-4301-bc02-939550514384)
 
-![imagen](https://github.com/user-attachments/assets/ffcd228c-60be-44d9-b9e7-d8afa00425e2)
-
+![imagen](https://github.com/user-attachments/assets/9640feb1-488c-4fe8-82c7-04ccc105e443)
 
 Características:
 - Admite un estado individual o un array de estados.
