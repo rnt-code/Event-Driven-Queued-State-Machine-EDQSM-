@@ -77,6 +77,6 @@ Este proyecto queda publicado a modo de plantilla personal reutilizable, pero pu
 
 ## 📂 Carpeta LV2015
 
-Este template también está disponible en una versión compatible con **LabVIEW 2015**. La carpeta `LV2015` contiene el mismo proyecto adaptado para ser abierto y utilizado en esa versión de LabVIEW.
+Este template esta desarollado en LabVIEW 2024, pero también está disponible en una versión compatible con **LabVIEW 2015**. La carpeta `LV2015` contiene el mismo proyecto adaptado para ser abierto y utilizado en esa versión de LabVIEW.
 
 ---
