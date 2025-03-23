@@ -34,6 +34,11 @@ Crea la cola de estados. Define el tipo de datos que se encolarán: un **cluster
 ### 2. `queue state & data.vi` *(SubVI polimórfico)*
 Encola uno o varios estados, con o sin datos adjuntos.
 
+![imagen](https://github.com/user-attachments/assets/0fd0c99c-5922-4301-bc02-939550514384)
+
+![imagen](https://github.com/user-attachments/assets/ffcd228c-60be-44d9-b9e7-d8afa00425e2)
+
+
 Características:
 - Admite un estado individual o un array de estados.
 - El dato adjunto puede ser un único Variant o un array de Variant.
