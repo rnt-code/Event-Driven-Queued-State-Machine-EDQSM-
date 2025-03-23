@@ -14,7 +14,7 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="controls" Type="Folder">
 			<Item Name="Data.ctl" Type="VI" URL="../controls/Data.ctl"/>
-			<Item Name="Message Cluster.ctl" Type="VI" URL="../controls/Message Cluster.ctl"/>
+			<Item Name="State &amp; Data Cluster.ctl" Type="VI" URL="../controls/State &amp; Data Cluster.ctl"/>
 		</Item>
 		<Item Name="support" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
