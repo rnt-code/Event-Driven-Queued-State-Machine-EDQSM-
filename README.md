@@ -1,95 +1,102 @@
-# Event Driven Queued State Machine (EDQSM) – Template en LabVIEW
+# Event Driven Queued State Machine (EDQSM) – Template in LabVIEW
 
-Este proyecto es un **template funcional de una máquina de estados basada en eventos**, estructurada mediante una **cola de estados con datos adjuntos**. Está pensado como punto de partida reutilizable para desarrollar aplicaciones más complejas en LabVIEW.
+This project is a **functional template for an event-driven state machine**, structured using a **state queue with attached data**. It's intended as a reusable starting point for developing more complex applications in LabVIEW.
 
-El diseño busca equilibrio entre simplicidad, claridad y flexibilidad, permitiendo un manejo ordenado de estados y datos, sin perder escalabilidad.
+The design aims for a balance between simplicity, clarity, and flexibility, allowing for organized handling of states and data, without sacrificing scalability.
 
----
+-----
 
-## 🔧 Estructura general del sistema
+## 🔧 General System Structure
 
-Este template implementa una **Queued State Machine controlada por eventos** (Event Driven Queued State Machine - EDQSM). La lógica de control se basa en:
+This template implements an **Event Driven Queued State Machine (EDQSM)**. The control logic is based on:
 
-- **Eventos de interfaz de usuario (UI Events)**: disparan los cambios de estado.
-- **Una cola de estados**: permite encolar uno o varios estados secuencialmente.
-- **Cluster de estado + dato**: cada elemento encolado incluye el nombre del estado (string) y un dato opcional (Variant).
+  - **User interface events (UI Events)**: trigger state changes.
+  - **A state queue**: allows queuing one or more states sequentially.
+  - **State + data cluster**: each queued element includes the state name (string) and an optional data (Variant).
 
-Esta estructura permite desacoplar la lógica de eventos de la lógica de ejecución de estados, lo cual resulta útil para aplicaciones medianas o grandes.
+This structure allows decoupling the event logic from the state execution logic, which is useful for medium to large applications.
 
-> **Nota**: Aunque el diseño está basado en eventos (EVQSM), puede adaptarse fácilmente a una **QSM clásica**, simplemente eliminando el estado `Wait`, que contiene el Event Structure. Esta flexibilidad permite ajustar la arquitectura según la complejidad o naturaleza del proyecto.
+> **Note**: Although the design is event-driven (EVQSM), it can be easily adapted to a **classic QSM** by simply removing the `Wait` state, which contains the Event Structure. This flexibility allows adjusting the architecture according to the project's complexity or nature.
 
----
+-----
 
-## 📁 SubVIs incluidos – Gestión de la cola
+## 📁 Included SubVIs – Queue Management
 
-El template incluye tres subVIs principales que encapsulan el manejo de la cola de estados:
+The template includes three main subVIs that encapsulate the state queue management:
 
 ### 1. `create queue.vi`
-Crea la cola de estados. Define el tipo de datos que se encolarán: un **cluster** compuesto por:
+
+Creates the state queue. Defines the data type to be queued: a **cluster** composed of:
 
 ![imagen](https://github.com/user-attachments/assets/bab771e1-4271-4695-9bc6-4607c5ad413b)
 
-- `State` (String): nombre del estado.
-- `Data` (Variant): dato opcional asociado al estado.
+  - `State` (String): state name.
+  - `Data` (Variant): optional data associated with the state.
 
-### 2. `queue state & data.vi` *(SubVI polimórfico)*
-Encola uno o varios estados, con o sin datos adjuntos.
+### 2. `queue state & data.vi` *(Polymorphic SubVI)*
+
+Queues one or more states, with or without attached data.
 
 ![imagen](https://github.com/user-attachments/assets/0fd0c99c-5922-4301-bc02-939550514384)
 
 ![imagen](https://github.com/user-attachments/assets/9640feb1-488c-4fe8-82c7-04ccc105e443)
 
-Características:
-- Admite un estado individual o un array de estados.
-- El dato adjunto puede ser un único Variant o un array de Variant.
-- Permite seleccionar la posición de encolado:
-  - **Por defecto:** al inicio de la cola (prioridad).
-  - **Opcional:** al final de la cola (orden FIFO).
+Features:
+
+  - Supports a single state or an array of states.
+  - The attached data can be a single Variant or an array of Variants.
+  - Allows selecting the queuing position:
+      - **Default**: at the beginning of the queue (priority).
+      - **Optional**: at the end of the queue (FIFO order).
 
 ### 3. `dequeue state & data.vi`
-Extrae el siguiente elemento de la cola, devolviendo el estado y el dato adjunto.
+
+Extracts the next element from the queue, returning the state and the attached data.
 
 ![imagen](https://github.com/user-attachments/assets/f48c8ed0-d35b-4390-8120-3f50eda3b1e3)
 
----
+-----
 
-## ⚙️ Funcionamiento del ejemplo incluido
+## ⚙️ Included Example Functionality
 
-Este template no es una estructura vacía, sino un ejemplo funcional que demuestra el mecanismo completo.
+This template is not an empty structure, but a functional example that demonstrates the complete mechanism.
 
 ![imagen](https://github.com/user-attachments/assets/10c78e76-b46f-4f94-90cc-3a34b05d1fbe)
 
-La interfaz gráfica incluye:
-- **Botón “Test 1”** → Encola el estado `Test 1`, que muestra un mensaje pop-up con el texto `"Test 1"`.
-- **Botón “Test 2”** → Encola el estado `Test 2`, que muestra un mensaje pop-up con el texto `"Test 2"`.
-- **Botón “Stop”** → Encola el estado `Stop`, que finaliza la ejecución de la máquina.
+The graphical interface includes:
+
+  - **"Test 1" button** → Queues the `Test 1` state, which displays a pop-up message with the text `"Test 1"`.
+  - **"Test 2" button** → Queues the `Test 2` state, which displays a pop-up message with the text `"Test 2"`.
+  - **"Stop" button** → Queues the `Stop` state, which ends the machine's execution.
 
 ![imagen](https://github.com/user-attachments/assets/a7fdf616-f946-4f09-bda1-5735dc028b9d)
 
-Este ejemplo permite ejecutar y visualizar la lógica de eventos, encolado y procesamiento de estados de forma inmediata.
+This example allows you to run and visualize the event logic, queuing, and state processing immediately.
 
----
+-----
 
-## 🔄 Posibilidades de extensión
+## 🔄 Extension Possibilities
 
-Este template puede extenderse fácilmente para adaptarse a proyectos reales, simplemente agregando nuevos casos de estado en el manejador de estados y utilizando los subVIs de cola para mantener el control secuencial del flujo.
+This template can be easily extended to adapt to real projects by simply adding new state cases in the state handler and using the queue subVIs to maintain sequential flow control.
 
-Al separar el manejo de eventos, la cola y la lógica de ejecución, se favorece una estructura limpia y mantenible.
+By separating event handling, the queue, and the execution logic, a clean and maintainable structure is favored.
 
----
+-----
 
-## 📝 Consideraciones finales
+## 📝 Final Considerations
 
-Aunque se trata de una máquina de estados simple, el diseño busca ser **robusto, reutilizable y flexible**. El uso de `Variant` permite pasar cualquier tipo de dato entre estados, lo cual lo hace adaptable a una amplia gama de aplicaciones.
+Although it's a simple state machine, the design aims to be **robust, reusable, and flexible**. The use of `Variant` allows passing any data type between states, making it adaptable to a wide range of applications.
 
-> **Nota adicional**: este template está implementado como una **máquina de estados impulsada por eventos (EVQSM)**, pero puede transformarse sin dificultad en una **QSM tradicional**, removiendo el estado `Wait` (que contiene el Event Structure) y gestionando los estados directamente mediante la cola. Esto lo hace aún más versátil como punto de partida para distintos tipos de aplicaciones.
+> **Additional Note**: This template is implemented as an **event-driven state machine (EVQSM)**, but can be easily transformed into a **traditional QSM** by removing the `Wait` state (which contains the Event Structure) and managing states directly through the queue. This makes it even more versatile as a starting point for different types of applications.
 
-Este proyecto queda publicado a modo de plantilla personal reutilizable, pero puede ser útil para otros desarrolladores que busquen una base clara y funcional para construir aplicaciones con EDQSM en LabVIEW.
+This project is published as a personal reusable template, but it may be useful to other developers looking for a clear and functional foundation to build EDQSM applications in LabVIEW.
 
----
+-----
 
-## 📂 Carpeta LV2015
+## 📂 LV2015 Folder
 
-Este template esta desarollado en LabVIEW 2024, pero también está disponible en una versión compatible con **LabVIEW 2015**. La carpeta `LV2015` contiene el mismo proyecto adaptado para ser abierto y utilizado en esa versión de LabVIEW.
+This template is developed in LabVIEW 2024, but it's also available in a version compatible with **LabVIEW 2015**. The `LV2015` folder contains the same project adapted to be opened and used in that LabVIEW version.
 
----
+-----
+
+Espero que esta traducción sea útil. Avísame si necesitas alguna otra cosa.
