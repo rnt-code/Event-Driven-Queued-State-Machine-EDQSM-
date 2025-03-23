@@ -29,6 +29,8 @@ Crea la cola de estados. Define el tipo de datos que se encolarán: un **cluster
 - `State` (String): nombre del estado.
 - `Data` (Variant): dato opcional asociado al estado.
 
+![imagen](https://github.com/user-attachments/assets/bab771e1-4271-4695-9bc6-4607c5ad413b)
+
 ### 2. `queue state & data.vi` *(SubVI polimórfico)*
 Encola uno o varios estados, con o sin datos adjuntos.
 
