@@ -26,10 +26,11 @@ El template incluye tres subVIs principales que encapsulan el manejo de la cola 
 
 ### 1. `create queue.vi`
 Crea la cola de estados. Define el tipo de datos que se encolarán: un **cluster** compuesto por:
-- `State` (String): nombre del estado.
-- `Data` (Variant): dato opcional asociado al estado.
 
 ![imagen](https://github.com/user-attachments/assets/bab771e1-4271-4695-9bc6-4607c5ad413b)
+
+- `State` (String): nombre del estado.
+- `Data` (Variant): dato opcional asociado al estado.
 
 ### 2. `queue state & data.vi` *(SubVI polimórfico)*
 Encola uno o varios estados, con o sin datos adjuntos.
@@ -47,6 +48,8 @@ Características:
 
 ### 3. `dequeue state & data.vi`
 Extrae el siguiente elemento de la cola, devolviendo el estado y el dato adjunto.
+
+![imagen](https://github.com/user-attachments/assets/f48c8ed0-d35b-4390-8120-3f50eda3b1e3)
 
 ---
 
