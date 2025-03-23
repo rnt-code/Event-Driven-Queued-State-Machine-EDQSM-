@@ -74,3 +74,9 @@ Aunque se trata de una máquina de estados simple, el diseño busca ser **robust
 Este proyecto queda publicado a modo de plantilla personal reutilizable, pero puede ser útil para otros desarrolladores que busquen una base clara y funcional para construir aplicaciones con EDQSM en LabVIEW.
 
 ---
+
+## 📂 Carpeta LV2015
+
+Este template también está disponible en una versión compatible con **LabVIEW 2015**. La carpeta `LV2015` contiene el mismo proyecto adaptado para ser abierto y utilizado en esa versión de LabVIEW.
+
+---
