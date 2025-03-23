@@ -24,7 +24,7 @@ Esta estructura permite desacoplar la lógica de eventos de la lógica de ejecuc
 
 El template incluye tres subVIs principales que encapsulan el manejo de la cola de estados:
 
-### 1. `create_queue.vi`
+### 1. `create queue.vi`
 Crea la cola de estados. Define el tipo de datos que se encolarán: un **cluster** compuesto por:
 - `State` (String): nombre del estado.
 - `Data` (Variant): dato opcional asociado al estado.
