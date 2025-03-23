@@ -80,3 +80,6 @@ Este proyecto queda publicado a modo de plantilla personal reutilizable, pero pu
 Este template esta desarollado en LabVIEW 2024, pero también está disponible en una versión compatible con **LabVIEW 2015**. La carpeta `LV2015` contiene el mismo proyecto adaptado para ser abierto y utilizado en esa versión de LabVIEW.
 
 ---
+
+![imagen](https://github.com/user-attachments/assets/a7fdf616-f946-4f09-bda1-5735dc028b9d)
+
