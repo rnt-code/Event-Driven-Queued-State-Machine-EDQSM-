@@ -14,11 +14,11 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="controls" Type="Folder">
 			<Item Name="Data.ctl" Type="VI" URL="../controls/Data.ctl"/>
-			<Item Name="Message Cluster.ctl" Type="VI" URL="../controls/Message Cluster.ctl"/>
+			<Item Name="State &amp; Data Cluster.ctl" Type="VI" URL="../controls/State &amp; Data Cluster.ctl"/>
 		</Item>
 		<Item Name="support" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
-			<Item Name="create_queue.vi" Type="VI" URL="../support/create_queue.vi"/>
+			<Item Name="create queue.vi" Type="VI" URL="../support/create queue.vi"/>
 			<Item Name="dequeue state &amp; data.vi" Type="VI" URL="../support/dequeue state &amp; data.vi"/>
 			<Item Name="queue state &amp; data.vi" Type="VI" URL="../support/queue state &amp; data.vi"/>
 		</Item>
@@ -55,6 +55,7 @@
 				<Item Name="TagReturnType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/TagReturnType.ctl"/>
 				<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog CORE.vi"/>
 				<Item Name="Three Button Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog.vi"/>
+				<Item Name="Trim Whitespace One-Sided.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace One-Sided.vi"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
