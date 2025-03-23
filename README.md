@@ -57,6 +57,8 @@ Extrae el siguiente elemento de la cola, devolviendo el estado y el dato adjunto
 
 Este template no es una estructura vacía, sino un ejemplo funcional que demuestra el mecanismo completo.
 
+![imagen](https://github.com/user-attachments/assets/10c78e76-b46f-4f94-90cc-3a34b05d1fbe)
+
 La interfaz gráfica incluye:
 - **Botón “Test 1”** → Encola el estado `Test 1`, que muestra un mensaje pop-up con el texto `"Test 1"`.
 - **Botón “Test 2”** → Encola el estado `Test 2`, que muestra un mensaje pop-up con el texto `"Test 2"`.
