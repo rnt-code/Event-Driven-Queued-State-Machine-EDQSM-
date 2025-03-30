@@ -6,4 +6,5 @@
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Item Name="queue state &amp; data (Array).vi" Type="VI" URL="../queue state &amp; data (Array).vi"/>
 	<Item Name="queue state &amp; data (Single).vi" Type="VI" URL="../queue state &amp; data (Single).vi"/>
+	<Item Name="queue state &amp; data.vi" Type="VI" URL="../queue state &amp; data.vi"/>
 </Library>

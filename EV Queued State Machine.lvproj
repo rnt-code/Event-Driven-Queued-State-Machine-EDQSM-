@@ -20,7 +20,6 @@
 			<Property Name="NI.SortType" Type="Int">3</Property>
 			<Item Name="create queue.vi" Type="VI" URL="../support/create queue.vi"/>
 			<Item Name="dequeue state &amp; data.vi" Type="VI" URL="../support/dequeue state &amp; data.vi"/>
-			<Item Name="queue state &amp; data.vi" Type="VI" URL="../support/queue state &amp; data.vi"/>
 		</Item>
 		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
 		<Item Name="queue state &amp; data.lvlib" Type="Library" URL="../support/queue state &amp; data.lvlib"/>
