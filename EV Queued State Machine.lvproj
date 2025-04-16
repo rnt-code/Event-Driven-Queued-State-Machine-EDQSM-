@@ -12,17 +12,8 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="controls" Type="Folder">
-			<Item Name="Data.ctl" Type="VI" URL="../controls/Data.ctl"/>
-			<Item Name="State &amp; Data Cluster.ctl" Type="VI" URL="../controls/State &amp; Data Cluster.ctl"/>
-		</Item>
-		<Item Name="support" Type="Folder">
-			<Property Name="NI.SortType" Type="Int">3</Property>
-			<Item Name="create queue.vi" Type="VI" URL="../support/create queue.vi"/>
-			<Item Name="dequeue state &amp; data.vi" Type="VI" URL="../support/dequeue state &amp; data.vi"/>
-		</Item>
+		<Item Name="Ev Queued SM API.lvlib" Type="Library" URL="../support/Ev Queued SM API.lvlib"/>
 		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
-		<Item Name="queue state &amp; data.lvlib" Type="Library" URL="../support/queue state &amp; data.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
