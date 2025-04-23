@@ -5,14 +5,14 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Item Name="controls" Type="Folder">
-		<Item Name="Data.ctl" Type="VI" URL="../../controls/Data.ctl"/>
-		<Item Name="State &amp; Data Cluster.ctl" Type="VI" URL="../../controls/State &amp; Data Cluster.ctl"/>
+		<Item Name="Data.ctl" Type="VI" URL="../controls/Data.ctl"/>
+		<Item Name="State &amp; Data Cluster.ctl" Type="VI" URL="../controls/State &amp; Data Cluster.ctl"/>
 	</Item>
 	<Item Name="support" Type="Folder">
-		<Item Name="create queue.vi" Type="VI" URL="../create queue.vi"/>
-		<Item Name="dequeue state &amp; data.vi" Type="VI" URL="../dequeue state &amp; data.vi"/>
+		<Item Name="create queue.vi" Type="VI" URL="../support/create queue.vi"/>
+		<Item Name="dequeue state &amp; data.vi" Type="VI" URL="../support/dequeue state &amp; data.vi"/>
 	</Item>
-	<Item Name="queue state &amp; data (Array).vi" Type="VI" URL="../queue state &amp; data (Array).vi"/>
-	<Item Name="queue state &amp; data (Single).vi" Type="VI" URL="../queue state &amp; data (Single).vi"/>
-	<Item Name="queue state &amp; data.vi" Type="VI" URL="../queue state &amp; data.vi"/>
+	<Item Name="queue state &amp; data (Array).vi" Type="VI" URL="../support/queue state &amp; data (Array).vi"/>
+	<Item Name="queue state &amp; data (Single).vi" Type="VI" URL="../support/queue state &amp; data (Single).vi"/>
+	<Item Name="queue state &amp; data.vi" Type="VI" URL="../support/queue state &amp; data.vi"/>
 </Library>
