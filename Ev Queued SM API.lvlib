@@ -39,8 +39,8 @@
 	<Item Name="support" Type="Folder">
 		<Item Name="create queue.vi" Type="VI" URL="../support/create queue.vi"/>
 		<Item Name="dequeue state &amp; data.vi" Type="VI" URL="../support/dequeue state &amp; data.vi"/>
+		<Item Name="queue state &amp; data (Array).vi" Type="VI" URL="../support/queue state &amp; data (Array).vi"/>
+		<Item Name="queue state &amp; data (Single).vi" Type="VI" URL="../support/queue state &amp; data (Single).vi"/>
+		<Item Name="queue state &amp; data.vi" Type="VI" URL="../support/queue state &amp; data.vi"/>
 	</Item>
-	<Item Name="queue state &amp; data (Array).vi" Type="VI" URL="../support/queue state &amp; data (Array).vi"/>
-	<Item Name="queue state &amp; data (Single).vi" Type="VI" URL="../support/queue state &amp; data (Single).vi"/>
-	<Item Name="queue state &amp; data.vi" Type="VI" URL="../support/queue state &amp; data.vi"/>
 </Library>
