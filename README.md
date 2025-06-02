@@ -98,3 +98,21 @@ This project is published as a personal reusable template, but it may be useful 
 This template is developed in LabVIEW 2024, but it's also available in a version compatible with **LabVIEW 2015**. The `LV2015` folder contains the same project adapted to be opened and used in that LabVIEW version.
 
 -----
+
+Perfecto, Ramón. Aquí tienes la versión en inglés, revisada para mantener el tono técnico y claro, y sin mencionar nombres propios:
+
+---
+
+### ⚠️ Disclaimer: On the Use of the Term "State Machine"
+
+This example is presented as an *Event-Driven Queued State Machine* (EDQSM), accurately describing its structure and behavior: states (or tasks) are managed via a queue and executed within an event-driven loop.
+
+However, it is important to note that in the LabVIEW development community, it is widely discussed that this kind of architecture —commonly found in QMH, MHL, and similar designs— **does not represent a formal State Machine in the strict sense**, because **the execution flow is not determined solely by internal state-transition logic**, but may be affected by multiple external sources enqueueing messages asynchronously (*external enqueueing*).
+
+In a deterministic State Machine, the system is always in one well-defined state, and **transitions to the next state are determined exclusively by the current state and internal conditions**, without interference from outside sources. When external actors (such as UI events, timers, or parallel modules) can insert messages into the queue at arbitrary times, this determinism is lost.
+
+For this reason, many experienced developers recommend **not referring to a Message Handler Loop (MHL) as a State Machine**, since that distinction is crucial for avoiding design flaws, unpredictable behaviors, and debugging difficulties.
+
+That said, this template supports a flexible structure that can behave deterministically **if access to the queue is tightly controlled**, or it can be extended as a more dynamic *task handler* system. The design choice depends on the specific goals of the application, but understanding the implications is essential for robust architecture.
+
+---
