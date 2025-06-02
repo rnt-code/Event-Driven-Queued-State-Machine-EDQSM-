@@ -4,7 +4,7 @@ This project is a **functional template for an event-driven state machine**, str
 
 The design aims for a balance between simplicity, clarity, and flexibility, allowing for organized handling of states and data, without sacrificing scalability.
 
-<b>NOTE</b>: See disclaimer at the end of this document.
+⚠️ <b>NOTE</b>: See disclaimer at the end of this document.
 
 -----
 
@@ -19,6 +19,15 @@ This template implements an **Event Driven Queued State Machine (EDQSM)**. The c
 This structure allows decoupling the event logic from the state execution logic, which is useful for medium to large applications.
 
 > **Note**: Although the design is event-driven (EVQSM), it can be easily adapted to a **classic QSM** by simply removing the `Wait` state, which contains the Event Structure. This flexibility allows adjusting the architecture according to the project's complexity or nature.
+
+-----
+## Conceptual Notes
+
+This template follows a common pattern in LabVIEW development where states are managed using a queue. While the structure and behavior may resemble a traditional state machine (SM), it's important to distinguish between deterministic state machines and message handling loops (MHL) driven by queues.
+
+In deterministic state machines, transitions are defined explicitly and sequentially, ensuring predictable behavior. In contrast, queue-based architectures (like this one) allow for external or asynchronous message enqueueing, which may introduce non-deterministic behavior if not carefully controlled.
+
+This distinction becomes especially relevant when designing systems that rely on strict execution order or where race conditions may arise. It is recommended to treat the MHL as a task handler rather than a true state machine unless you encapsulate the logic in a self-contained SubVI with restricted queue access.
 
 -----
 
@@ -100,10 +109,6 @@ This project is published as a personal reusable template, but it may be useful 
 This template is developed in LabVIEW 2024, but it's also available in a version compatible with **LabVIEW 2015**. The `LV2015` folder contains the same project adapted to be opened and used in that LabVIEW version.
 
 -----
-
-Perfecto, Ramón. Aquí tienes la versión en inglés, revisada para mantener el tono técnico y claro, y sin mencionar nombres propios:
-
----
 
 ### ⚠️ Disclaimer: On the Use of the Term "State Machine"
 
