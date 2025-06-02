@@ -4,6 +4,8 @@ This project is a **functional template for an event-driven state machine**, str
 
 The design aims for a balance between simplicity, clarity, and flexibility, allowing for organized handling of states and data, without sacrificing scalability.
 
+NOTE: See desclaimer note at the end.
+
 -----
 
 ## 🔧 General System Structure
