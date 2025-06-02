@@ -1,4 +1,4 @@
-# Event Driven Queued State Machine (EDQSM) – Template in LabVIEW
+# Event Driven Queued State Machine (EDQSM)
 
 This project is a **functional template for an event-driven state machine**, structured using a **state queue with attached data**. It's intended as a reusable starting point for developing more complex applications in LabVIEW.
 
