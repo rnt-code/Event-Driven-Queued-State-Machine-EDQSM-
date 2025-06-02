@@ -109,7 +109,7 @@ Perfecto, Ramón. Aquí tienes la versión en inglés, revisada para mantener el
 
 This example is presented as an *Event-Driven Queued State Machine* (EDQSM), accurately describing its structure and behavior: states (or tasks) are managed via a queue and executed within an event-driven loop.
 
-However, it is important to note that in the LabVIEW development community, it is widely discussed that this kind of architecture —commonly found in QMH, MHL, and similar designs— **does not represent a formal State Machine in the strict sense**, because **the execution flow is not determined solely by internal state-transition logic**, but may be affected by multiple external sources enqueueing messages asynchronously (*external enqueueing*).
+However, it is important to note that in the LabVIEW development community, it is widely discussed that this kind of architecture —commonly found in QMH, DQMH, and similar designs— **does not represent a formal State Machine in the strict sense**, because **the execution flow is not determined solely by internal state-transition logic**, but may be affected by multiple external sources enqueueing messages asynchronously (*external enqueueing*).
 
 In a deterministic State Machine, the system is always in one well-defined state, and **transitions to the next state are determined exclusively by the current state and internal conditions**, without interference from outside sources. When external actors (such as UI events, timers, or parallel modules) can insert messages into the queue at arbitrary times, this determinism is lost.
 
