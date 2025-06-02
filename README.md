@@ -28,6 +28,7 @@ This template follows a common pattern in LabVIEW development where states are m
 In deterministic state machines, transitions are defined explicitly and sequentially, ensuring predictable behavior. In contrast, queue-based architectures (like this one) allow for external or asynchronous message enqueueing, which may introduce non-deterministic behavior if not carefully controlled.
 
 This distinction becomes especially relevant when designing systems that rely on strict execution order or where race conditions may arise. It is recommended to treat the MHL as a task handler rather than a true state machine unless you encapsulate the logic in a self-contained SubVI with restricted queue access.
+
 -----
 
 ## 📁 Included SubVIs – Queue Management
