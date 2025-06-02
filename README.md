@@ -21,6 +21,14 @@ This structure allows decoupling the event logic from the state execution logic,
 > **Note**: Although the design is event-driven (EVQSM), it can be easily adapted to a **classic QSM** by simply removing the `Wait` state, which contains the Event Structure. This flexibility allows adjusting the architecture according to the project's complexity or nature.
 
 -----
+## Conceptual Notes
+
+This template follows a common pattern in LabVIEW development where states are managed using a queue. While the structure and behavior may resemble a traditional state machine (SM), it's important to distinguish between deterministic state machines and message handling loops (MHL) driven by queues.
+
+In deterministic state machines, transitions are defined explicitly and sequentially, ensuring predictable behavior. In contrast, queue-based architectures (like this one) allow for external or asynchronous message enqueueing, which may introduce non-deterministic behavior if not carefully controlled.
+
+This distinction becomes especially relevant when designing systems that rely on strict execution order or where race conditions may arise. It is recommended to treat the MHL as a task handler rather than a true state machine unless you encapsulate the logic in a self-contained SubVI with restricted queue access.
+-----
 
 ## 📁 Included SubVIs – Queue Management
 
