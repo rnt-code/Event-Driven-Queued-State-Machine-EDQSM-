@@ -4,7 +4,7 @@ This project is a **functional template for an event-driven state machine**, str
 
 The design aims for a balance between simplicity, clarity, and flexibility, allowing for organized handling of states and data, without sacrificing scalability.
 
-⚠️ <b>NOTE</b>: See disclaimer at the end of this document.
+⚠️ **Note:**: See disclaimer at the end of this document.
 
 -----
 
@@ -48,8 +48,8 @@ Features:
   - Supports a single state or an array of states.
   - The attached data can be a single Variant or an array of Variants.
   - Allows selecting the queuing position:
-      - **Default**: at the beginning of the queue (priority).
-      - **Optional**: at the end of the queue (FIFO order).
+      - **Default**: at the rear of the queue (FIFO order).
+      - **Optional**: at the front of the queue (priority).
 
 ### 3. `dequeue state & data.vi`
 
@@ -76,7 +76,7 @@ The graphical interface includes:
 This example allows you to run and visualize the event logic, queuing, and state processing immediately.
 
 -----
-## Conceptual Notes
+## Design Considerations
 
 This template follows a common pattern in LabVIEW development where states are managed using a queue. While the structure and behavior may resemble a traditional state machine (SM), it's important to distinguish between deterministic state machines and message handling loops (MHL) driven by queues.
 
@@ -100,7 +100,7 @@ Although it's a simple state machine, the design aims to be **robust, reusable, 
 
 > **Additional Note**: This template is implemented as an **event-driven state machine (EVQSM)**, but can be easily transformed into a **traditional QSM** by removing the `Wait` state (which contains the Event Structure) and managing states directly through the queue. This makes it even more versatile as a starting point for different types of applications.
 
-This project is published as a personal reusable template, but it may be useful to other developers looking for a clear and functional foundation to build EDQSM applications in LabVIEW.
+This project is shared as a reusable LabVIEW template, originally developed for personal use, but potentially valuable to other developers seeking a clear and functional EDQSM foundation.
 
 -----
 
