@@ -101,10 +101,6 @@ This template is developed in LabVIEW 2024, but it's also available in a version
 
 -----
 
-Perfecto, Ramón. Aquí tienes la versión en inglés, revisada para mantener el tono técnico y claro, y sin mencionar nombres propios:
-
----
-
 ### ⚠️ Disclaimer: On the Use of the Term "State Machine"
 
 This example is presented as an *Event-Driven Queued State Machine* (EDQSM), accurately describing its structure and behavior: states (or tasks) are managed via a queue and executed within an event-driven loop.
