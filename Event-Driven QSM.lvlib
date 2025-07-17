@@ -35,16 +35,20 @@
 	<Property Name="SaveStatePeriod" Type="UInt">0</Property>
 	<Property Name="Serialized ACL" Type="Bin">*!#!!!!!!!)!"1!&amp;!!!A1%!!!@````]!!".V&lt;H.J:WZF:#"C?82F)'&amp;S=G&amp;Z!!%!!1!!!!A)!!!!#!!!!!!!!!!</Property>
 	<Property Name="Use Data Logging Database" Type="Bool">true</Property>
-	<Item Name="Public API" Type="Folder">
-		<Item Name="TypDefs" Type="Folder">
+	<Item Name="Private" Type="Folder">
+		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+	</Item>
+	<Item Name="Public" Type="Folder">
+		<Property Name="NI.SortType" Type="Int">3</Property>
+		<Item Name="TypeDefs" Type="Folder">
 			<Item Name="data--cluster.ctl" Type="VI" URL="../ev qsm/data--cluster.ctl"/>
 			<Item Name="state &amp; data--cluster.ctl" Type="VI" URL="../ev qsm/state &amp; data--cluster.ctl"/>
 		</Item>
 		<Item Name="create queue.vi" Type="VI" URL="../ev qsm/create queue.vi"/>
 		<Item Name="dequeue state &amp; data.vi" Type="VI" URL="../ev qsm/dequeue state &amp; data.vi"/>
 		<Item Name="queue state &amp; data (Array).vi" Type="VI" URL="../ev qsm/queue state &amp; data (Array).vi"/>
-		<Item Name="queue state &amp; data (Single).vi" Type="VI" URL="../ev qsm/queue state &amp; data (Single).vi"/>
 		<Item Name="queue state &amp; data.vi" Type="VI" URL="../ev qsm/queue state &amp; data.vi"/>
+		<Item Name="queue state &amp; data (Single).vi" Type="VI" URL="../ev qsm/queue state &amp; data (Single).vi"/>
 		<Item Name="release queue.vi" Type="VI" URL="../ev qsm/release queue.vi"/>
 	</Item>
 </Library>
