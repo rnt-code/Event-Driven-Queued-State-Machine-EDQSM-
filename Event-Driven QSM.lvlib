@@ -40,15 +40,15 @@
 	</Item>
 	<Item Name="Public" Type="Folder">
 		<Property Name="NI.SortType" Type="Int">3</Property>
-		<Item Name="TypeDefs" Type="Folder">
-			<Item Name="data--cluster.ctl" Type="VI" URL="../ev qsm/data--cluster.ctl"/>
-			<Item Name="state &amp; data--cluster.ctl" Type="VI" URL="../ev qsm/state &amp; data--cluster.ctl"/>
-		</Item>
-		<Item Name="create queue.vi" Type="VI" URL="../ev qsm/create queue.vi"/>
-		<Item Name="dequeue state &amp; data.vi" Type="VI" URL="../ev qsm/dequeue state &amp; data.vi"/>
-		<Item Name="queue state &amp; data (Array).vi" Type="VI" URL="../ev qsm/queue state &amp; data (Array).vi"/>
-		<Item Name="queue state &amp; data.vi" Type="VI" URL="../ev qsm/queue state &amp; data.vi"/>
-		<Item Name="queue state &amp; data (Single).vi" Type="VI" URL="../ev qsm/queue state &amp; data (Single).vi"/>
-		<Item Name="release queue.vi" Type="VI" URL="../ev qsm/release queue.vi"/>
+		<Item Name="create queue.vi" Type="VI" URL="../Event-Driven QSM/create queue.vi"/>
+		<Item Name="dequeue state &amp; data.vi" Type="VI" URL="../Event-Driven QSM/dequeue state &amp; data.vi"/>
+		<Item Name="queue state &amp; data (Array).vi" Type="VI" URL="../Event-Driven QSM/queue state &amp; data (Array).vi"/>
+		<Item Name="queue state &amp; data.vi" Type="VI" URL="../Event-Driven QSM/queue state &amp; data.vi"/>
+		<Item Name="queue state &amp; data (Single).vi" Type="VI" URL="../Event-Driven QSM/queue state &amp; data (Single).vi"/>
+		<Item Name="release queue.vi" Type="VI" URL="../Event-Driven QSM/release queue.vi"/>
+	</Item>
+	<Item Name="TypeDefs" Type="Folder">
+		<Item Name="data--cluster.ctl" Type="VI" URL="../Event-Driven QSM/data--cluster.ctl"/>
+		<Item Name="state &amp; data--cluster.ctl" Type="VI" URL="../Event-Driven QSM/state &amp; data--cluster.ctl"/>
 	</Item>
 </Library>
