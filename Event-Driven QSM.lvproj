@@ -12,7 +12,7 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Event-Driven QSM.lvlib" Type="Library" URL="../Event-Driven QSM/Event-Driven QSM.lvlib"/>
+		<Item Name="ED Queued State Machine.lvlib" Type="Library" URL="../Event-Driven QSM/ED Queued State Machine.lvlib"/>
 		<Item Name="Main.vit" Type="VI" URL="../Main.vit"/>
 		<Item Name="Dependencies" Type="Dependencies"/>
 		<Item Name="Build Specifications" Type="Build"/>
