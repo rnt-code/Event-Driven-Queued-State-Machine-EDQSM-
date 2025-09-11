@@ -36,14 +36,14 @@
 	<Property Name="Use Data Logging Database" Type="Bool">true</Property>
 	<Item Name="Private" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		<Item Name="queue state &amp; data (Array).vi" Type="VI" URL="../queue state &amp; data (Array).vi"/>
+		<Item Name="queue state &amp; data (Single).vi" Type="VI" URL="../queue state &amp; data (Single).vi"/>
 	</Item>
 	<Item Name="Public" Type="Folder">
 		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Item Name="create queue.vi" Type="VI" URL="../create queue.vi"/>
 		<Item Name="dequeue state &amp; data.vi" Type="VI" URL="../dequeue state &amp; data.vi"/>
-		<Item Name="queue state &amp; data (Array).vi" Type="VI" URL="../queue state &amp; data (Array).vi"/>
 		<Item Name="queue state &amp; data.vi" Type="VI" URL="../queue state &amp; data.vi"/>
-		<Item Name="queue state &amp; data (Single).vi" Type="VI" URL="../queue state &amp; data (Single).vi"/>
 		<Item Name="release queue.vi" Type="VI" URL="../release queue.vi"/>
 	</Item>
 	<Item Name="TypeDefs" Type="Folder">
