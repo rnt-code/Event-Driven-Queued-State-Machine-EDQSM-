@@ -12,8 +12,8 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Ejemplo" Type="Folder">
-			<Item Name="Main.vi" Type="VI" URL="../Ejemplo/Main.vi"/>
+		<Item Name="Example" Type="Folder">
+			<Item Name="Simple State Machine (Events).vi.vi" Type="VI" URL="../Example/Simple State Machine (Events).vi.vi"/>
 		</Item>
 		<Item Name="ED Queued State Machine.lvlib" Type="Library" URL="../Event-Driven QSM/ED Queued State Machine.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies"/>
