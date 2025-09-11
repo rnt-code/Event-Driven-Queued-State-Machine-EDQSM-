@@ -41,13 +41,15 @@
 	</Item>
 	<Item Name="Public" Type="Folder">
 		<Property Name="NI.SortType" Type="Int">3</Property>
-		<Item Name="create queue.vi" Type="VI" URL="../create queue.vi"/>
-		<Item Name="dequeue state &amp; data.vi" Type="VI" URL="../dequeue state &amp; data.vi"/>
-		<Item Name="queue state &amp; data.vi" Type="VI" URL="../queue state &amp; data.vi"/>
-		<Item Name="release queue.vi" Type="VI" URL="../release queue.vi"/>
-	</Item>
-	<Item Name="TypeDefs" Type="Folder">
-		<Item Name="data--cluster.ctl" Type="VI" URL="../data--cluster.ctl"/>
-		<Item Name="state and data--cluster.ctl" Type="VI" URL="../state and data--cluster.ctl"/>
+		<Item Name="TypeDefs" Type="Folder">
+			<Item Name="data--cluster.ctl" Type="VI" URL="../data--cluster.ctl"/>
+			<Item Name="state and data--cluster.ctl" Type="VI" URL="../state and data--cluster.ctl"/>
+		</Item>
+		<Item Name="Queue Functions" Type="Folder">
+			<Item Name="create queue.vi" Type="VI" URL="../create queue.vi"/>
+			<Item Name="dequeue state &amp; data.vi" Type="VI" URL="../dequeue state &amp; data.vi"/>
+			<Item Name="queue state &amp; data.vi" Type="VI" URL="../queue state &amp; data.vi"/>
+			<Item Name="release queue.vi" Type="VI" URL="../release queue.vi"/>
+		</Item>
 	</Item>
 </Library>
