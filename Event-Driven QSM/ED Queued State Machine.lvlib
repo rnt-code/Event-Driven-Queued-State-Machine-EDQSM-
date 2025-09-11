@@ -48,6 +48,6 @@
 	</Item>
 	<Item Name="TypeDefs" Type="Folder">
 		<Item Name="data--cluster.ctl" Type="VI" URL="../data--cluster.ctl"/>
-		<Item Name="state &amp; data--cluster.ctl" Type="VI" URL="../state &amp; data--cluster.ctl"/>
+		<Item Name="state and data--cluster.ctl" Type="VI" URL="../state and data--cluster.ctl"/>
 	</Item>
 </Library>
