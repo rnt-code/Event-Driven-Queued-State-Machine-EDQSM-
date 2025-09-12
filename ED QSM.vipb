@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2025-09-12 13:47:03" Modified_Date="2025-09-12 14:29:37" Creator="Taboada.R248" Comments="" ID="8420d5227a350f62da8fed4d533abd31">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2025-09-12 13:47:03" Modified_Date="2025-09-12 15:54:10" Creator="Taboada.R248" Comments="" ID="568f2b428eb64e8597265bdcab9866c1">
   <Library_General_Settings>
     <Package_File_Name>RT_lib_ED_QSM</Package_File_Name>
-    <Library_Version>1.0.0.2</Library_Version>
+    <Library_Version>1.0.0.3</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..</Library_Output_Folder>
@@ -220,7 +220,7 @@ This structure allows decoupling the event logic from the state execution logic,
   <Library_Palette_Definition>
     <Functions_Palette_Data>
       <Parent_Palette_Index>-1</Parent_Palette_Index>
-      <Name/>
+      <Name>ED QSM Functions</Name>
       <View_Format>Icons</View_Format>
       <Size>
         <Height_Row>1</Height_Row>
@@ -381,7 +381,7 @@ This structure allows decoupling the event logic from the state execution logic,
     </Functions_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>-1</Parent_Palette_Index>
-      <Name/>
+      <Name>ED QSM Controls</Name>
       <View_Format>Icons</View_Format>
       <Size>
         <Height_Row>1</Height_Row>
