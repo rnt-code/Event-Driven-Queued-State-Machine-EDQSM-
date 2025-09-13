@@ -13,7 +13,9 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Example" Type="Folder">
-			<Item Name="data_example--cluster.ctl" Type="VI" URL="../Example/data_example--cluster.ctl"/>
+			<Item Name="TypeDefs" Type="Folder">
+				<Item Name="data_example--cluster.ctl" Type="VI" URL="../Example/data_example--cluster.ctl"/>
+			</Item>
 			<Item Name="Simple State Machine (Events).vi" Type="VI" URL="../Example/Simple State Machine (Events).vi"/>
 		</Item>
 		<Item Name="ED Queued State Machine.lvlib" Type="Library" URL="../Event-Driven QSM/ED Queued State Machine.lvlib"/>
