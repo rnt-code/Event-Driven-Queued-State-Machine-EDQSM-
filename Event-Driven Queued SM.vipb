@@ -1,10 +1,10 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2025-09-13 12:40:08" Modified_Date="2025-09-13 13:04:06" Creator="ingra" Comments="" ID="4b5b409fbd261f3bbe935c9a7f422c45">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2025-09-13 12:40:08" Modified_Date="2025-09-13 13:59:51" Creator="ingra" Comments="" ID="d2b010ca1c24d9c38dfd1479cf402d72">
   <Library_General_Settings>
     <Package_File_Name>TABOADA_lib_Event_Driven_Queued_SM</Package_File_Name>
-    <Library_Version>1.0.0.2</Library_Version>
+    <Library_Version>1.0.0.3</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
-    <Library_Output_Folder>..</Library_Output_Folder>
+    <Library_Output_Folder>.</Library_Output_Folder>
     <Company_Name>TABOADA</Company_Name>
     <Library_Summary/>
     <Library_License/>
@@ -130,6 +130,21 @@ This structure allows decoupling the event logic from the state execution logic,
         <Namespace_Type>Prefix</Namespace_Type>
         <Namespace/>
       </Namespace_Overrides>
+      <Exclusions>
+        <Path>.gitattributes</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>.gitignore</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>Event-Driven QSM.lvproj</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>README.md</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>taboada_lib_event_driven_queued_sm-1.0.0.1.vip</Path>
+      </Exclusions>
       <Place_Folder_Contents>
         <Path/>
       </Place_Folder_Contents>
@@ -247,7 +262,7 @@ This structure allows decoupling the event logic from the state execution logic,
         <Path>Example</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>F7F88BB388DD2C3B5ABD42C603DB9B08</GUID>
+      <GUID>AF3052F309D47BBC41A5445495730FCF</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -324,7 +339,7 @@ This structure allows decoupling the event logic from the state execution logic,
         <Path>Event-Driven QSM\release queue.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>1CDDE38F0413E15B61A735D095CF3EE4</GUID>
+      <GUID>11C6AFDEAD6CAE8A166846B325CBE4C2</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -359,7 +374,7 @@ This structure allows decoupling the event logic from the state execution logic,
         <Path>Example\Simple State Machine (Events).vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>EF8655E1103C4A884912CA4C06FF0518</GUID>
+      <GUID>FDA4033AB27B18B44C8AD9D64153A359</GUID>
     </Functions_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>-1</Parent_Palette_Index>
@@ -408,7 +423,7 @@ This structure allows decoupling the event logic from the state execution logic,
         <Path>Example</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>D0251E8633AA0E3C7B8FDFA52FC9002A</GUID>
+      <GUID>E2CC5597B578FD7A45C3300E086F7F3E</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -457,7 +472,7 @@ This structure allows decoupling the event logic from the state execution logic,
         <Path>Event-Driven QSM\state and data--cluster.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>1B323DB3E7A54B1740A6903107AE85A0</GUID>
+      <GUID>ACE596CDA6C4AC1013DAE64EC458879E</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -492,7 +507,7 @@ This structure allows decoupling the event logic from the state execution logic,
         <Path>Example\data_example--cluster.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>07260F1B5E4B2EBFCA09298ACBDC3613</GUID>
+      <GUID>F647D5E8FD36DD00BD362F6CBE9A856E</GUID>
     </Controls_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
