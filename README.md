@@ -104,9 +104,9 @@ This project is shared as a reusable LabVIEW template, originally developed for 
 
 -----
 
-## 📂 LV2015 Folder
+## 📂 LV2018 Folder
 
-This template is developed in LabVIEW 2024, but it's also available in a version compatible with **LabVIEW 2015**. The `LV2015` folder contains the same project adapted to be opened and used in that LabVIEW version.
+This template is developed in LabVIEW 2024, but it's also available in a version compatible with **LabVIEW 2018**. The `LV2015` folder contains the same project adapted to be opened and used in that LabVIEW version.
 
 -----
 
