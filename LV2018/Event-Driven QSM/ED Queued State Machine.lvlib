@@ -38,10 +38,9 @@
 	<Property Name="Use Data Logging Database" Type="Bool">true</Property>
 	<Item Name="Private" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
-		<Item Name="queue state &amp; data (Array).vi" Type="VI" URL="../queue state &amp; data (Array).vi"/>
-		<Item Name="queue state &amp; data (Single).vi" Type="VI" URL="../queue state &amp; data (Single).vi"/>
 	</Item>
 	<Item Name="Public" Type="Folder">
+		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
 		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Item Name="TypeDefs" Type="Folder">
 			<Item Name="data--cluster.ctl" Type="VI" URL="../data--cluster.ctl"/>
@@ -50,8 +49,10 @@
 		<Item Name="Queue Functions" Type="Folder">
 			<Item Name="create queue.vi" Type="VI" URL="../create queue.vi"/>
 			<Item Name="dequeue state &amp; data.vi" Type="VI" URL="../dequeue state &amp; data.vi"/>
-			<Item Name="queue state &amp; data.vi" Type="VI" URL="../queue state &amp; data.vi"/>
 			<Item Name="release queue.vi" Type="VI" URL="../release queue.vi"/>
+			<Item Name="queue state &amp; data.vi" Type="VI" URL="../queue state &amp; data.vi"/>
+			<Item Name="queue state &amp; data (Array).vi" Type="VI" URL="../queue state &amp; data (Array).vi"/>
+			<Item Name="queue state &amp; data (Single).vi" Type="VI" URL="../queue state &amp; data (Single).vi"/>
 		</Item>
 	</Item>
 </Library>

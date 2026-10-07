@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2017" Created_Date="2026-10-07 00:29:02" Modified_Date="2026-10-07 01:00:05" Creator="RTaboada" Comments="" ID="4469dd822bbd5870dfa9e081e1508fdd">
+<VI_Package_Builder_Settings Version="2017" Created_Date="2026-10-07 00:29:02" Modified_Date="2026-10-07 07:16:12" Creator="RTaboada" Comments="" ID="a3921ce36aff88a8ba95a2eced0804c2">
   <Library_General_Settings>
     <Package_File_Name>TABOADA_lib_Event_Driven_Queued_SM</Package_File_Name>
-    <Library_Version>1.0.0.2</Library_Version>
+    <Library_Version>1.0.0.3</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>.</Library_Output_Folder>
@@ -298,7 +298,7 @@ This structure allows decoupling the event logic from the state execution logic,
         <Path>Event-Driven QSM\release queue.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>29C2EC5145F4BE0ABA7F9247770AEE70</GUID>
+      <GUID>5198549604E954BEB2707255700C4571</GUID>
     </Functions_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>-1</Parent_Palette_Index>
@@ -347,7 +347,7 @@ This structure allows decoupling the event logic from the state execution logic,
         <Path>Event-Driven QSM\state and data--cluster.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>6EA511493A81C7620220B4ECF1A358D6</GUID>
+      <GUID>4ABC32E5EE7F0254BE3CC48D43A96E59</GUID>
     </Controls_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
