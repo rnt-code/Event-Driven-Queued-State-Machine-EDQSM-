@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2017" Created_Date="2026-10-07 00:29:02" Modified_Date="2026-10-08 09:10:05" Creator="RTaboada" Comments="" ID="1787e26bf7e43692f5d113ca00aa6470">
+<VI_Package_Builder_Settings Version="2017" Created_Date="2026-10-07 00:29:02" Modified_Date="2026-10-08 09:23:34" Creator="RTaboada" Comments="" ID="313159b21d2d8077a501ac539187cddb">
   <Library_General_Settings>
     <Package_File_Name>TABOADA_lib_Event_Driven_Queued_SM</Package_File_Name>
-    <Library_Version>1.0.0.4</Library_Version>
+    <Library_Version>1.0.0.5</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>.</Library_Output_Folder>
@@ -50,7 +50,7 @@ This structure allows decoupling the event logic from the state execution logic,
       <Copyright/>
       <Packager>TABOADA</Packager>
       <URL>https://github.com/rnt-code/Event-Driven-Queued-State-Machine-EDQSM-</URL>
-      <Release_Notes/>
+      <Release_Notes>Fixed SM in Example</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -242,7 +242,7 @@ This structure allows decoupling the event logic from the state execution logic,
         <Path>Example</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>27DEAB407F3C7A05571353D0A5EF0909</GUID>
+      <GUID>2253842A5153539DFFD7C8CCC79446EE</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -319,7 +319,7 @@ This structure allows decoupling the event logic from the state execution logic,
         <Path>ED Queued State Machine\Release Queue.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>AA7FF90C981A440BABD44871E51FE7C1</GUID>
+      <GUID>C112D5D7E6643CCC135578BA2F1827B3</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -354,7 +354,7 @@ This structure allows decoupling the event logic from the state execution logic,
         <Path>Example\Simple State Machine (Events).vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>4463B8C4DBC9A9659E545D6F7818768E</GUID>
+      <GUID>544AD91B76ED9E08FF6724AE912BD4AD</GUID>
     </Functions_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>-1</Parent_Palette_Index>
@@ -403,7 +403,7 @@ This structure allows decoupling the event logic from the state execution logic,
         <Path>Example</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>BF57B47FEEC4A159E102722B9157128A</GUID>
+      <GUID>519071320ADDAD9940959AB7CC38D76D</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -452,7 +452,7 @@ This structure allows decoupling the event logic from the state execution logic,
         <Path>ED Queued State Machine\State and Data--cluster.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>4719D0056F2EEA66EE7EB71501C6CE6A</GUID>
+      <GUID>162CCFD61A1E78BF031EFB3C39682CA4</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -487,7 +487,7 @@ This structure allows decoupling the event logic from the state execution logic,
         <Path>Example\Data Example--cluster.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>C89A6DB93D31E5698C3FF30EE2B6EB91</GUID>
+      <GUID>2992BFEF3E507E680DC32FF9DFB14FBD</GUID>
     </Controls_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
