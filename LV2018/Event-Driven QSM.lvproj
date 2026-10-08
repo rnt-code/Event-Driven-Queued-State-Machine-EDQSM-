@@ -2,16 +2,7 @@
 <Project Type="Project" LVVersion="18008000">
 	<Property Name="NI.LV.All.SaveVersion" Type="Str">24.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
-	<Property Name="SMProvider.SMVersion" Type="Int">201310</Property>
 	<Item Name="My Computer" Type="My Computer">
-		<Property Name="IOScan.Faults" Type="Str"></Property>
-		<Property Name="IOScan.NetVarPeriod" Type="UInt">100</Property>
-		<Property Name="IOScan.NetWatchdogEnabled" Type="Bool">false</Property>
-		<Property Name="IOScan.Period" Type="UInt">10000</Property>
-		<Property Name="IOScan.PowerupMode" Type="UInt">0</Property>
-		<Property Name="IOScan.Priority" Type="UInt">9</Property>
-		<Property Name="IOScan.ReportModeConflict" Type="Bool">true</Property>
-		<Property Name="IOScan.StartEngineOnDeploy" Type="Bool">false</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.tcp.enabled" Type="Bool">false</Property>
@@ -23,18 +14,18 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Example" Type="Folder">
 			<Item Name="TypeDefs" Type="Folder">
-				<Item Name="data_example--cluster.ctl" Type="VI" URL="../Example/data_example--cluster.ctl"/>
+				<Item Name="Data Example--cluster.ctl" Type="VI" URL="../Example/Data Example--cluster.ctl"/>
 			</Item>
-			<Item Name="EDQSM example.vi" Type="VI" URL="../Example/EDQSM example.vi"/>
-			<Item Name="guid.vi" Type="VI" URL="../Example/guid.vi"/>
+			<Item Name="Simple State Machine (Events).vi" Type="VI" URL="../Example/Simple State Machine (Events).vi"/>
 		</Item>
-		<Item Name="ED Queued State Machine.lvlib" Type="Library" URL="../Event-Driven QSM/ED Queued State Machine.lvlib"/>
+		<Item Name="ED Queued State Machine.lvlib" Type="Library" URL="../ED Queued State Machine/ED Queued State Machine.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
 				<Item Name="Check Special Tags.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Check Special Tags.vi"/>
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
 				<Item Name="Convert property node font to graphics font.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Convert property node font to graphics font.vi"/>
+				<Item Name="Create NI GUID.vi" Type="VI" URL="/&lt;vilib&gt;/string/Create NI GUID.vi"/>
 				<Item Name="Details Display Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Details Display Dialog.vi"/>
 				<Item Name="DialogType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogType.ctl"/>
 				<Item Name="DialogTypeEnum.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogTypeEnum.ctl"/>
@@ -60,6 +51,7 @@
 				<Item Name="TagReturnType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/TagReturnType.ctl"/>
 				<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog CORE.vi"/>
 				<Item Name="Three Button Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog.vi"/>
+				<Item Name="Trim Whitespace One-Sided.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace One-Sided.vi"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
